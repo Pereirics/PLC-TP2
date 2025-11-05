@@ -1,0 +1,10 @@
+int a;
+int b;
+int arr[10];
+
+arr[0] = 1;
+arr[9] = 2;
+
+printi(arr[0]);
+println();
+printi(arr[9]);

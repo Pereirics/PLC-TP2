@@ -1,0 +1,23 @@
+int size;
+int i;
+int j;
+int t;
+int a[10];
+int inp;
+
+def printarr(i, a, size) void {
+    i=0;
+    while (i < size) {
+        printi(a[i]);
+        println();
+        i=i+1;
+    }
+    return;
+}
+
+a[0] = 1;
+a[1] = 2;
+
+size = 5;
+i = 0;
+printarr(i, a, size);

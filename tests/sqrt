@@ -1,0 +1,24 @@
+int L;
+int R;
+int M; 
+int res;
+int x;
+
+def sqrt(x) int {
+	R = x+1;
+
+    while (L != R - 1)
+    {
+        M = (L + R) / 2;
+
+		if (M * M <= x) 
+			L = M;
+		else 
+			R = M;
+	}
+
+    return L;
+}
+
+res = sqrt(atoi(input()));
+printi(res);
